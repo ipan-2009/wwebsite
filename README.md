@@ -1,33 +1,47 @@
-# wwebsite<div
-  class="service-card w-[300px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-[#202127]"
->
-  <svg
-    stroke-linejoin="round"
-    stroke-linecap="round"
-    stroke-width="2"
-    stroke="#000000"
-    fill="none"
-    viewBox="0 0 24 24"
-    class="text-5xl h-12 w-12 stroke-gray-800 group-hover:stroke-gray-400"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <rect ry="2" rx="2" height="14" width="20" y="3" x="2"></rect>
-    <line y2="21" x2="16" y1="21" x1="8"></line>
-    <line y2="21" x2="12" y1="17" x1="12"></line>
-  </svg>
-
-  <p class="font-bold text-2xl group-hover:text-white text-black/80">
-    WEBSITE SEO
-  </p>
-  <p class="text-gray-400 text-sm">
-    Website ravida surna eveti semen the conse tusio anivite dianne one nivam
-    acestion vue artin dictum.
-  </p>
-  <p
-    style="-webkit-text-stroke: 1px gray;
-                              -webkit-text-fill-color: transparent;"
-    class="text-5xl font-bold self-end"
-  >
-    09
-  </p>
-</div>
+# wwebsite<div<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Coming Soon Website Using HTML and CSS3</title>
+  </head>
+  <body>
+    <header>
+      <div class="coundown-timmer">
+        <div class="content">
+          <h2>Website Comming Soon</h2>
+          <p>
+            Our Website Under Construction, We Are Working on it, We Will Rady to Lunch it After
+          </p>
+        </div>
+        <div class="timmer-content">
+          <div class="time">
+            <span id="days" class="numbers">00</span>
+            <span>Days</span>
+          </div>
+          <div class="time">
+            <span id="hours" class="numbers">00</span>
+            <span>Hours</span>
+          </div>
+          <div class="time">
+            <span id="minutes" class="numbers">00</span>
+            <span>Minutes</span>
+          </div>
+          <div class="time">
+            <span id="seconds" class="numbers">00</span>
+            <span>Second</span>
+          </div>
+        </div>
+        <div class="input-data">
+          <h3>Subscribe Now to Get Updates</h3>
+          <div class="input-fields">
+            <div><input type="email" placeholder=" Enter an Email" /></div>
+            <a href="#">Subscribe Now</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="js/main.js"></script>
+  </body>
+</html>
