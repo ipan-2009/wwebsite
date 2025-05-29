@@ -1,57 +1,33 @@
-# wwebsite<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title> Nazri Azka - CV</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
-</head>
-<body>
-  <header class="navbar">
-    <h1 class="logo">Azril</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Portofolio</a></li>
-        <li><a href="cv.html" class="active">CV</a></li>
-        <li><button id="theme-toggle"><span id="theme-icon">🌙</span></button></li>
-      </ul>
-    </nav>
-  </header>
+# wwebsite<div
+  class="service-card w-[300px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-[#202127]"
+>
+  <svg
+    stroke-linejoin="round"
+    stroke-linecap="round"
+    stroke-width="2"
+    stroke="#000000"
+    fill="none"
+    viewBox="0 0 24 24"
+    class="text-5xl h-12 w-12 stroke-gray-800 group-hover:stroke-gray-400"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect ry="2" rx="2" height="14" width="20" y="3" x="2"></rect>
+    <line y2="21" x2="16" y1="21" x1="8"></line>
+    <line y2="21" x2="12" y1="17" x1="12"></line>
+  </svg>
 
-  <main>
-    <section>
-      <h2>Curriculum Vitae</h2>
-      
-      <div class="cv-photo">
-        <img src="y.jpg" alt="Foto Azril Nazri" />
-      </div>
-
-      <div class="cv-box">
-        <p><strong>Nama:</strong> Nazri Azka </p>
-        <p><strong>Alamat:</strong> Jl. Parangtritis Km. 10, Bantul, Yogyakarta</p>
-        <p><strong>Email:</strong> trezzcounter@gmail.com</p>
-        <p><strong>No. HP:</strong> +62 812-3456-7890</p>
-
-        <h3>Pendidikan</h3>
-        <ul>
-          <li>SMK N 1 Sanden – Rekayasa Perangkat Lunak (2024–Sekarang)</li>
-        </ul>
-
-        <h3>Keahlian</h3>
-        <ul>
-          <li>Bug Hunting (Web & Android)</li>
-          <li>Reverse Engineering Dasar</li>
-          <li>JavaScript, React, TailwindCSS</li>
-        </ul>
-
-        <h3>Pengalaman</h3>
-        <ul>
-          <li>Bug Hunter di HackerOne (2024–sekarang)</li>
-          <li>Pentester Web (2024)</li>
-        </ul>
-      </div>
-    </section>
-  </main>
-</body>
-</html>
+  <p class="font-bold text-2xl group-hover:text-white text-black/80">
+    WEBSITE SEO
+  </p>
+  <p class="text-gray-400 text-sm">
+    Website ravida surna eveti semen the conse tusio anivite dianne one nivam
+    acestion vue artin dictum.
+  </p>
+  <p
+    style="-webkit-text-stroke: 1px gray;
+                              -webkit-text-fill-color: transparent;"
+    class="text-5xl font-bold self-end"
+  >
+    09
+  </p>
+</div>
